@@ -3,4 +3,5 @@
 
   tasks:
   - name: Print var
-    var: thisistest
+    ansible.builtin.debug:
+      var: thisistest
