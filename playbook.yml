@@ -1,0 +1,6 @@
+- name: Vars test
+  hosts: all
+
+  tasks:
+  - name: Print var
+    var: thisistest
